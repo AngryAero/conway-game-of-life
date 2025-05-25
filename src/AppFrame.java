@@ -13,6 +13,7 @@ public class AppFrame extends JFrame {
         setResizable(false);
         setSize(500, 550);
         setLayout(new BoxLayout(getContentPane(), BoxLayout.Y_AXIS));
+        setLocationRelativeTo(null);
         setVisible(true);
     }
 }
