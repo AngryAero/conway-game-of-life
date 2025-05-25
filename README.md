@@ -1,18 +1,19 @@
-## Getting Started
+# Conway's Game of Life
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A Java implementation of **Conway's Game of Life**, a cellular automaton devised by mathematician John Conway. This project features a simple GUI for playing, pausing, and stepping through generations.
 
-## Folder Structure
+This project was developed as a course requirement for **CSC931M**
 
-The workspace contains two folders by default, where:
+## Game Rules
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Each cell on the grid follows these rules per generation:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. **Underpopulation**: A live cell with fewer than 2 live neighbors dies.
+2. **Survival**: A live cell with 2 or 3 live neighbors survives.
+3. **Overpopulation**: A live cell with more than 3 live neighbors dies.
+4. **Reproduction**: A dead cell with exactly 3 live neighbors becomes alive.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## How to run
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Run `GameOfLife.jar` and the game will automatically launch.
+- Alternatively, type `java -cp bin App` inside the terminal.
