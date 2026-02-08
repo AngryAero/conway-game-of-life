@@ -2,8 +2,8 @@
   "version": "2.5.0",
   "summary": {
     "title": "Class Activity 2 - Threat Modeling: Data Flow Diagram",
-    "owner": "",
-    "description": "",
+    "owner": "Aero Cerezo",
+    "description": "Class Activity for CSSECDV",
     "id": 0
   },
   "detail": {
@@ -1147,7 +1147,7 @@
       }
     ],
     "diagramTop": 2,
-    "reviewer": "",
+    "reviewer": "Aero Cerezo",
     "threatTop": 0
   }
 }
