@@ -11,7 +11,7 @@
     "diagrams": [
       {
         "id": 1,
-        "title": "New STRIDE diagram",
+        "title": "Class Activity 2 - Threat Modeling: Data Flow Diagram",
         "diagramType": "STRIDE",
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
@@ -1142,7 +1142,8 @@
               }
             ]
           }
-        ]
+        ],
+        "description": "Class Activity 2 - Threat Modeling: Data Flow Diagram"
       }
     ],
     "diagramTop": 2,
